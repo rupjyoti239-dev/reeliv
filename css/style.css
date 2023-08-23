@@ -25,7 +25,7 @@ body {
   --black: #262626;
   --white: #fff;
   --green: #029461;
-  --yellow: rgb(243, 139, 13);
+  --yellow: #FFAE00;
 }
 
 .section {
@@ -416,9 +416,14 @@ header {
 .copy{
   padding: 1rem;
   text-align: center;
-  font-size: 1.4rem;
-  color: var(--black);
-  background-color: #F6F6F6;
+  font-size: 1.6rem;
+  color: var(--white);
+  font-weight: 600;
+  background-color:var(--black);
+}
+.copy span{
+  color: var(--yellow);
+  font-weight: 800;
 }
 
 
